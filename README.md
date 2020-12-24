@@ -11,7 +11,7 @@
   <a href="https://github.com/Technoweebs/repo/issues">
     <img src="https://img.shields.io/github/issues/Technoweebs/repo.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/repo/blob/master/LICENSE.md">
+  <a href="https://github.com/Technoweebs/repo/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/Technoweebs/repo.svg?style=for-the-badge">
   </a>
   <a href="https://github.com/Technoweebs/repo">
