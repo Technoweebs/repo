@@ -16,7 +16,10 @@ module.exports = {
 	},
 
 	exec: (command, args) => {
-		return this.check(command) ? this.commands.get(command).exec(args, {}) : null;
+		if(!this.check(command)) return null;
+		let pArgs = this.app.get("args").parse(args, this.man(command).args);
+
+		return this.commands.get(command).exec(pArgs.args, pArgs.options);
 	},
 
 	man: (command) => {
