@@ -13,5 +13,9 @@ module.exports = {
 
 	check: (arg) => {
 		return this.args.get(arg) != undefined;
+	},
+
+	man: (arg) => {
+		return this.check(arg) ? this.args.get(arg).man : null;
 	}
 };
