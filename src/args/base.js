@@ -8,7 +8,7 @@ module.exports = {
 		return / (-b|--base) /i.test(' ' + args.join(' ') + ' ');
 	},
 
-	exec: (args, options) => {
+	exec: (args) => {
 		args.splice(args.indexOf(args.find((element) => { return element.match(/^(-b|--base)$/i) })), 1);
 		options.base = true;
 		return { args: args, options: options };
