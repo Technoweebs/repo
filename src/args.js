@@ -9,5 +9,9 @@ module.exports = {
 			let arg = require(__dirname + "/args/" + file);
 			this.args.set(arg.man.name, arg);
 		});
+	},
+
+	check: (arg) => {
+		return this.args.get(arg) != undefined;
 	}
 };
