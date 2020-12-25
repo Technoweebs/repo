@@ -7,5 +7,8 @@
   "repository": "https://github.com/Technoweebs/repo",
   "author": "TomaruDev",
   "license": "GPL-3.0",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "cfonts": "^2.9.0"
+  }
 }
