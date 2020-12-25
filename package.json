@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Repo is... a repo manager. Made to work with Git and Github.",
   "main": "bin/repo.js",
-  "bin": "bin/neu2.js",
+  "bin": "bin/repo.js",
   "repository": "https://github.com/Technoweebs/repo",
   "author": "TomaruDev",
   "license": "GPL-3.0",
